@@ -1,0 +1,13 @@
+<map id="createImageResource" name="createImageResource">
+<area shape="rect" id="Node000001" title=" " alt="" coords="487,56,635,83"/>
+<area shape="rect" id="Node000002" href="$crud_8php.html#aa64d94621b6374b04638b15c3a637a3a" title=" " alt="" coords="358,56,439,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="472,72,440,72,440,67,472,67"/>
+<area shape="rect" id="Node000003" href="$delete_8php.html#a4ff564546abd399fb23875561d8c5203" title=" " alt="" coords="169,5,278,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="343,56,271,35,273,30,344,51"/>
+<area shape="rect" id="Node000005" href="$crud_8php.html#a186af78286fadfa09b4a3a3b64d96edd" title=" " alt="" coords="137,56,310,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="342,72,311,72,311,67,342,67"/>
+<area shape="rect" id="Node000006" href="$crud_8php.html#ad336f72879afc237c7550885c182b90a" title=" " alt="" coords="146,107,301,133"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="344,88,273,109,271,104,343,83"/>
+<area shape="rect" id="Node000004" href="$crud_8php.html#abde3f71127defea6c276b4b32f943483" title=" " alt="" coords="5,5,89,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="153,21,89,21,89,16,153,16"/>
+</map>

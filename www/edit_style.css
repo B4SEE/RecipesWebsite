@@ -1,0 +1,407 @@
+@media screen {
+    main>form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    .input_label {
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    input {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 800px;
+        height: 90px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .name {
+        height: 45px;
+    }
+
+    .description {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+        min-width: 800px;
+        max-width: 1200px;
+        min-height: 200px;
+        max-height: 800px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .ingredients {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 800px;
+        height: 45px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .ingredient {
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        margin: 70px;
+    }
+
+    .add_ingredient_button {
+        margin-bottom: 30px;
+        width: 90px;
+        height: 45px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .add_ingredient_button:hover {
+        background-color: var(--white-400);
+        cursor: pointer;
+    }
+
+    .undo_button {
+        margin-bottom: 30px;
+        width: 90px;
+        height: 45px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .undo_button:hover {
+        background-color: var(--white-400);
+        cursor: pointer;
+    }
+
+    .text {
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .file_input_button_div {
+        display: table;
+        vertical-align: middle;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .file_input_button {
+        display: table-cell;
+        vertical-align: middle;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 800px;
+        height: 45px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .file_input_button:hover {
+        background-color: var(--white-400);
+        cursor: pointer;
+    }
+
+    .submit {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 400px;
+        height: 45px;
+        background-color: var(--yellow-300);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+        color: var(--neutral-50);
+        font-family: Inter;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .submit:hover {
+        background-color: var(--yellow-100);
+        cursor: pointer;
+    }
+
+    .cancel_div {
+        display: table;
+        vertical-align: middle;
+        width: fit-content;
+        height: fit-content;
+        background-color: var(--red-300);
+        border: none;
+        border-radius: 30px;
+    }
+
+    .cancel {
+        display: table-cell;
+        vertical-align: middle;
+        color: var(--neutral-50);
+        width: 400px;
+        height: 45px;
+        text-align: center;
+        font-family: Inter;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: none;
+    }
+
+    .cancel_div:hover {
+        background-color: var(--red-100);
+    }
+}
+
+@media print {
+    main>form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
+
+    .input_label {
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    input {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 800px;
+        height: 90px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .name {
+        height: 45px;
+    }
+
+    .description {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+        min-width: 800px;
+        max-width: 1200px;
+        min-height: 200px;
+        max-height: 800px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+    }
+
+    .ingredients {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 800px;
+        height: 45px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .ingredient {
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        margin: 70px;
+    }
+
+    .add_ingredient_button {
+        margin-bottom: 30px;
+        width: 90px;
+        height: 45px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .undo_button {
+        margin-bottom: 30px;
+        width: 90px;
+        height: 45px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .text {
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .file_input_button_div {
+        display: table;
+        vertical-align: middle;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .file_input_button {
+        display: table-cell;
+        vertical-align: middle;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 800px;
+        height: 45px;
+        background-color: var(--white-200);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .submit {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 400px;
+        height: 45px;
+        background-color: var(--yellow-300);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+        color: var(--neutral-50);
+        font-family: Inter;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .cancel_div {
+        display: table;
+        vertical-align: middle;
+        width: fit-content;
+        height: fit-content;
+        background-color: var(--red-300);
+        border: none;
+        border-radius: 30px;
+    }
+
+    .cancel {
+        display: table-cell;
+        vertical-align: middle;
+        color: var(--neutral-50);
+        width: 400px;
+        height: 45px;
+        text-align: center;
+        font-family: Inter;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: none;
+    }
+}

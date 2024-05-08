@@ -1,0 +1,7 @@
+<map id="displayRecipeCardRow" name="displayRecipeCardRow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,160,32"/>
+<area shape="rect" id="Node000002" href="$crud_8php.html#aa64d94621b6374b04638b15c3a637a3a" title=" " alt="" coords="208,5,289,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,16,192,16,192,21,160,21"/>
+<area shape="rect" id="Node000003" href="$crud_8php.html#a4a0dfebd6fc6d41d65537c901da1aaa1" title=" " alt="" coords="337,5,484,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="290,16,321,16,321,21,290,21"/>
+</map>

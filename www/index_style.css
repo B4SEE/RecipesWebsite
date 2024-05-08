@@ -1,0 +1,180 @@
+@media screen {
+    .cards_wraps {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 100px;
+    }
+
+    .cards>h1 {
+        text-align: center;
+        width: 100%;
+        color: var(--neutral-800, #2C2B2B);
+        font-family: Inter;
+        font-size: 38.897px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .card {
+        background-color: var(--white-200);
+        width: 403px;
+        border-radius: 33px;
+        border: 1px solid var(--white-200);
+    }
+
+    .card>p {
+        color: var(--neutral-800);
+        font-family: Inter;
+        font-size: 20.714px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 38px;
+    }
+
+    .card>h2 {
+        color: var(--neutral-800);
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 38px;
+    }
+
+    .card_image_div {
+        width: 403px;
+        height: 212.04px;
+        object-fit: scale-down;
+        overflow: hidden;
+        border-top-left-radius: 33px;
+        border-top-right-radius: 33px;
+    }
+
+    .button,
+    .add_recipe_button,
+    .user_control_button {
+        background-color: var(--yellow-300);
+        width: fit-content;
+        padding: 10px;
+        padding-left: 32px;
+        padding-right: 32px;
+        border-radius: 30px;
+        margin: 40px;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: var(--neutral-800);
+        text-decoration: none;
+    }
+
+    .button>a {
+        color: var(--neutral-800);
+        text-decoration: none;
+    }
+
+    .button:hover,
+    .add_recipe_button:hover,
+    .user_control_button:hover {
+        background-color: var(--yellow-100);
+    }
+
+    .add_recipe_button_div,
+    .user_control_button_div {
+        display: flex;
+        justify-content: right;
+    }
+}
+
+@media print {
+    @page {
+        size: 1920px 1920px !important;
+    }
+    .cards_wraps {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+        padding-bottom: 100px !important;
+    }
+
+    .cards>h1 {
+        text-align: center !important;
+        width: 100% !important;
+        color: var(--neutral-800, #2C2B2B) !important;
+        font-family: Inter !important;
+        font-size: 38.897px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        line-height: normal !important;
+    }
+
+    .card {
+        background-color: var(--white-200) !important;
+        width: 403px !important;
+        border-radius: 33px !important;
+        border: 1px solid var(--white-200) !important;
+    }
+
+    .card>p {
+        color: var(--neutral-800) !important;
+        font-family: Inter !important;
+        font-size: 20.714px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: normal !important;
+        margin-left: 38px !important;
+    }
+
+    .card>h2 {
+        color: var(--neutral-800) !important;
+        font-family: Inter !important;
+        font-size: 32px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        line-height: normal !important;
+        margin-left: 38px !important;
+    }
+
+    .card_image_div {
+        width: 403px !important;
+        height: 212.04px !important;
+        object-fit: scale-down !important;
+        overflow: hidden !important;
+        border-top-left-radius: 33px !important;
+        border-top-right-radius: 33px !important;
+    }
+
+    .button,
+    .add_recipe_button,
+    .user_control_button {
+        background-color: var(--yellow-300) !important;
+        width: fit-content !important;
+        padding: 10px !important;
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+        border-radius: 30px !important;
+        margin: 40px !important;
+        font-family: Inter !important;
+        font-size: 20px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        line-height: normal !important;
+        color: var(--neutral-800) !important;
+        text-decoration: none !important;
+    }
+
+    .button>a {
+        color: var(--neutral-800) !important;
+        text-decoration: none !important;
+    }
+
+    .add_recipe_button_div,
+    .user_control_button_div {
+        display: flex !important;
+        justify-content: right !important;
+    }
+}

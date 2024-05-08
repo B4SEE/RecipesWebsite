@@ -1,0 +1,134 @@
+@media screen {
+    main>form {
+        margin-top: 250px;
+    }
+
+    p {
+        color: var(--neutral-400);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 30px;
+    }
+
+    .file_input_div {
+        display: table;
+        vertical-align: middle;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .file_input {
+        display: table-cell;
+        vertical-align: middle;
+        border: none;
+        border-radius: 30px;
+        width: 250px;
+        height: 45px;
+        background-color: var(--white-200);
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .file_input:hover {
+        background-color: var(--white-400);
+    }
+
+    .submit_button {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 250px;
+        height: 45px;
+        background-color: var(--yellow-300);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+        color: var(--neutral-50);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .submit_button:hover {
+        background-color: var(--yellow-100);
+        cursor: pointer;
+    }
+
+    main>form>p {
+        color: var(--neutral-400);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-decoration-line: none;
+    }
+}
+
+@media print {
+    main>form {
+        margin-top: 250px;
+    }
+
+    p {
+        color: var(--neutral-400);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 30px;
+    }
+
+    .file_input_div {
+        display: table;
+        vertical-align: middle;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .file_input {
+        display: table-cell;
+        vertical-align: middle;
+        border: none;
+        border-radius: 30px;
+        width: 250px;
+        height: 45px;
+        background-color: var(--white-200);
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .submit_button {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 250px;
+        height: 45px;
+        background-color: var(--yellow-300);
+        text-align: center;
+        border: none;
+        border-radius: 30px;
+        color: var(--neutral-50);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    main>form>p {
+        color: var(--neutral-400);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-decoration-line: none;
+    }
+}

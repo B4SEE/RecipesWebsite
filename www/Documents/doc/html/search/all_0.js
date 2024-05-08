@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['_24commentlink_0',['$commentLink',['../recipe_8php.html#a74ef0e1b26f8137ccdaaf527ee9fda9b',1,'recipe.php']]],
+  ['_24conn_1',['$conn',['../admin__page_8php.html#ad4e5c879cbbaba9a8120e7bffd784cb6',1,'admin_page.php']]],
+  ['_24createrecipe_2',['$createRecipe',['../recipe_8php.html#a80b8129be818d23f0c3b2bc17167e25d',1,'recipe.php']]],
+  ['_24delete_3',['$delete',['../recipe_8php.html#aba2374a8b713514611e21494ec2fef8d',1,'recipe.php']]],
+  ['_24deletelink_4',['$deleteLink',['../recipe_8php.html#a904a8db77066f9a5566ffe79245284a1',1,'recipe.php']]],
+  ['_24editlink_5',['$editLink',['../recipe_8php.html#a4588c37a38ec2b01be9901068329df47',1,'recipe.php']]],
+  ['_24image_5fpath_6',['$image_path',['../signup_8php.html#a76031315b9e122417ca0a3ef7036d1ff',1,'signup.php']]],
+  ['_24ingredients_7',['$ingredients',['../edit_8php.html#aa39355b2293e862a04989fcb3edc0321',1,'edit.php']]],
+  ['_24isedited_8',['$isEdited',['../recipe_8php.html#aafd8f88a7ecfe8c7aa80a48edf2c375e',1,'recipe.php']]],
+  ['_24limit_9',['$limit',['../do_search_8php.html#ae05862a0294251c88629b141b5ce329a',1,'doSearch.php']]],
+  ['_24menu_5fresult_10',['$menu_result',['../header_8php.html#aa162e832143177ce67e5327b8b47fe26',1,'header.php']]],
+  ['_24nameerr_11',['$nameErr',['../recipe_8php.html#aa62c0c1a06d60858dbd116cbcff26432',1,'recipe.php']]],
+  ['_24offset_12',['$offset',['../do_search_8php.html#aec4de82415d7f05cb9748d12d3a95a87',1,'doSearch.php']]],
+  ['_24recipe_13',['$recipe',['../recipe_8php.html#a674ed73b75144902b3cbab87f770f8c4',1,'recipe.php']]],
+  ['_24recipeimage_14',['$recipeImage',['../recipe_8php.html#a87dbd2954e59d4adbabb7b95ed523e4c',1,'recipe.php']]],
+  ['_24result_15',['$result',['../do_search_8php.html#a112ef069ddc0454086e3d1e6d8d55d07',1,'$result:&#160;doSearch.php'],['../index_8php.html#a112ef069ddc0454086e3d1e6d8d55d07',1,'$result:&#160;index.php']]],
+  ['_24total_5fpages_16',['$total_pages',['../do_search_8php.html#a75dd972125f47d333492e70523d1aa6a',1,'doSearch.php']]],
+  ['_24total_5fresults_17',['$total_results',['../do_search_8php.html#a5fdb47d46326b227375ea360269bf542',1,'doSearch.php']]],
+  ['_24user_18',['$user',['../get_user_8php.html#a598ca4e71b15a1313ec95f0df1027ca5',1,'getUser.php']]],
+  ['_24username_19',['$username',['../login_8php.html#a0eb82aa5f81cf845de4b36cd653c42cf',1,'$username:&#160;login.php'],['../signup_8php.html#a0eb82aa5f81cf845de4b36cd653c42cf',1,'$username:&#160;signup.php']]],
+  ['_24usernameerr_20',['$usernameErr',['../login_8php.html#a8abda8957c66b521986a86526599db1c',1,'$usernameErr:&#160;login.php'],['../signup_8php.html#a8abda8957c66b521986a86526599db1c',1,'$usernameErr:&#160;signup.php']]],
+  ['_24users_21',['$users',['../admin__page_8php.html#a28005d22fa7ef2dfe215ad886b497d9c',1,'admin_page.php']]]
+];

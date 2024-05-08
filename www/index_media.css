@@ -1,0 +1,85 @@
+@media print {
+    .cards_wraps {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+        padding-bottom: 100px !important;
+    }
+
+    .cards>h1 {
+        text-align: center !important;
+        width: 100% !important;
+        color: var(--neutral-800, #2C2B2B) !important;
+        font-family: Inter !important;
+        font-size: 38.897px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        line-height: normal !important;
+    }
+
+    .card {
+        background-color: var(--white-200) !important;
+        width: 403px !important;
+        border-radius: 33px !important;
+        border: 1px solid var(--white-200) !important;
+    }
+
+    .card>p {
+        color: var(--neutral-800) !important;
+        font-family: Inter !important;
+        font-size: 20.714px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: normal !important;
+        margin-left: 38px !important;
+    }
+
+    .card>h2 {
+        color: var(--neutral-800) !important;
+        font-family: Inter !important;
+        font-size: 32px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        line-height: normal !important;
+        margin-left: 38px !important;
+    }
+
+    .card_image_div {
+        width: 403px !important;
+        height: 212.04px !important;
+        object-fit: scale-down !important;
+        overflow: hidden !important;
+        border-top-left-radius: 33px !important;
+        border-top-right-radius: 33px !important;
+    }
+
+    .button,
+    .add_recipe_button,
+    .user_control_button {
+        background-color: var(--yellow-300) !important;
+        width: fit-content !important;
+        padding: 10px !important;
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+        border-radius: 30px !important;
+        margin: 40px !important;
+        font-family: Inter !important;
+        font-size: 20px !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        line-height: normal !important;
+        color: var(--neutral-800) !important;
+        text-decoration: none !important;
+    }
+
+    .button>a {
+        color: var(--neutral-800) !important;
+        text-decoration: none !important;
+    }
+
+    .add_recipe_button_div,
+    .user_control_button_div {
+        display: flex !important;
+        justify-content: right !important;
+    }
+}

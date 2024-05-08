@@ -1,0 +1,349 @@
+@media screen {
+
+    .description,
+    .ingredients,
+    .ingredientsList {
+        color: var(--neutral-950);
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 70px;
+        min-height: 50px;
+    }
+
+    .ingredients {
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+
+    .ingredientsList {
+        margin-top: 0px;
+    }
+
+    .description>br,
+    .ingredientsList>br {
+        display: block;
+        content: "";
+        margin-top: 30px;
+    }
+
+    .description {
+        word-wrap: break-word;
+    }
+
+    .ingredientsList>br {
+        margin-top: 10px;
+    }
+
+    main>form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 70px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        margin: 30px;
+        margin-bottom: 0px;
+    }
+
+    .edit_button,
+    .delete_button,
+    .comment_button,
+    .comment_delete_button {
+        background-color: var(--yellow-300);
+        border: none;
+        border-radius: 30px;
+        color: var(--neutral-50);
+        cursor: pointer;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 70px;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+
+    .edit_button:hover,
+    .comment_button:hover {
+        background-color: var(--yellow-100);
+    }
+
+    .delete_button,
+    .comment_delete_button {
+        background-color: var(--red-300);
+    }
+
+    .delete_button:hover,
+    .comment_delete_button:hover {
+        background-color: var(--red-100);
+    }
+
+    .comment_bar {
+        background-color: var(--yellow-300);
+        border: none;
+        margin: 0px;
+        margin-top: 30px;
+        padding: 0px;
+        width: 100%;
+        height: 30px;
+    }
+
+    .comment_button_div {
+        display: flex;
+        justify-content: center;
+        margin: 70px;
+        margin-bottom: 0px;
+    }
+
+    .comment {
+        background-color: var(--white-200);
+        border-bottom: 10px solid var(--yellow-300);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 70px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .user {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0px;
+    }
+
+    .comment_profile_picture_div {
+        border-radius: 50%;
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        object-fit: scale-down;
+        overflow: hidden;
+        width: 50px;
+    }
+
+    .comment_author,
+    .comment_content,
+    .comment_time,
+    .comment_date {
+        color: var(--neutral-800);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 15px;
+    }
+
+    .comment_author {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0px;
+        margin-left: 15px;
+    }
+
+    .comment_content {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .comment_time,
+    .comment_date {
+        font-size: 12px;
+        margin: 3px;
+        margin-left: 5px;
+        padding: 0px;
+    }
+
+    .comment_delete_button {
+        margin: 0px;
+        margin-top: 30px;
+        width: fit-content;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+
+@media print {
+    @page {
+        size: landscape !important;
+    }
+
+    .description {
+        color: var(--neutral-950) !important;
+        font-family: Inter !important;
+        font-size: 24px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: normal !important;
+        margin: 70px !important;
+        min-height: 50px !important;
+    }
+
+    .description>br {
+        display: block !important;
+        content: "" !important;
+        margin-top: 30px !important;
+    }
+
+    main>form {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 70px !important;
+    }
+
+    .buttons {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: right !important;
+        margin: 30px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .edit_button,
+    .delete_button,
+    .comment_button,
+    .comment_delete_button {
+        background-color: var(--yellow-300) !important;
+        border: none !important;
+        border-radius: 30px !important;
+        color: var(--neutral-50) !important;
+        cursor: pointer !important;
+        font-family: Inter !important;
+        font-size: 16px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: normal !important;
+        margin: 0 70px !important;
+        padding: 10px 20px !important;
+        text-decoration: none !important;
+    }
+
+    .delete_button,
+    .comment_delete_button {
+        background-color: var(--red-300) !important;
+    }
+
+    .comment_bar_div {
+        background-color: var(--yellow-300) !important;
+        border: none !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        margin-bottom: 0px !important;
+        margin-top: 30px !important;
+        height: 30px !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+
+    .comment_bar {
+        background-color: var(--yellow-300) !important;
+        border: none !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        border-radius: 30px !important;
+        color: var(--neutral-50) !important;
+        cursor: pointer !important;
+        font-family: Inter !important;
+        font-size: 16px !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: normal !important;
+        margin: 0 70px !important;
+        padding: 10px 20px !important;
+        text-decoration: none !important;
+        width: 100% !important;
+    }
+
+    .comment_button_div {
+        display: flex !important;
+        justify-content: center !important;
+        margin: 70px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .comment {
+        background-color: var(--white-200) !important;
+        border-bottom: 10px solid var(--yellow-300) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 70px !important;
+        padding: 20px !important;
+        border-radius: 30px !important;
+    }
+
+    .user {
+        align-items: center !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        padding: 0px !important;
+    }
+
+    .comment_profile_picture_div {
+        border-radius: 50% !important;
+        display: flex !important;
+        height: 50px !important;
+        justify-content: center !important;
+        object-fit: scale-down !important;
+        overflow: hidden !important;
+        width: 50px !important;
+    }
+
+    .comment_author,
+    .comment_content,
+    .comment_time,
+    .comment_date {
+        color: var(--neutral-800) !important;
+        font-family: Inter !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        line-height: normal !important;
+        margin-left: 15px !important;
+    }
+
+    .comment_author {
+        font-size: 24px !important;
+        font-weight: 700 !important;
+        margin: 0px !important;
+        margin-left: 15px !important;
+    }
+
+    .comment_content {
+        font-size: 16px !important;
+        margin-top: 30px !important;
+    }
+
+    .comment_time,
+    .comment_date {
+        font-size: 12px !important;
+        margin: 3px !important;
+        margin-left: 5px !important;
+        padding: 0px !important;
+    }
+
+    .comment_delete_button {
+        margin: 0px !important;
+        margin-top: 30px !important;
+        width: fit-content !important;
+    }
+
+    h2 {
+        text-align: center !important;
+    }
+}
