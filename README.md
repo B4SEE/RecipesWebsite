@@ -8,7 +8,7 @@
 
 The project is a recipes website developed as part of the Basics of Web Applications course. It adheres to specific requirements outlined for server-side and client-side functionalities, utilizing HTML, JavaScript, CSS, and PHP without any third-party frameworks. The core functionalities include a registration form with server-side data validation and client-side input validation. Additionally, the website incorporates features like image uploading and dependent form fields controlled via JavaScript.
 
-Client-side technologies ensure 100% valid HTML, paired labels for all form fields, separate style and script files, meaningful styles for printing, and the integration of AJAX for asynchronous data retrieval. On the server side, pagination is implemented, enabling users to view and edit submitted data. Data integrity is maintained by storing user inputs in the chosen storage mechanism, whether it be a file or a database, exactly as entered by the user.
+Client-side technologies ensure 100% valid HTML, paired labels for all form fields, separate style and script files, meaningful styles for printing, and the integration of AJAX for asynchronous data retrieval. On the server side, pagination is implemented, enabling users to view and edit submitted data. Data integrity is maintained by storing user inputs in the database.
 
 Documentation is a vital aspect of the project, encompassing automatically generated documentation, task specifications, product documentation, and developer documentation. Furthermore, the presentation of dates follows a human-readable format, and content is logically organized for easy comprehension and navigation.
 
